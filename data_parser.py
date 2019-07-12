@@ -112,12 +112,16 @@ writer.save()
 
 #graficar datos por departamento
 for dep in np.unique(raw_data.columns.get_level_values('departamento')):
-	print("Depto: "+dep)
-	for mun in raw_data.xs(dep, level='departamento', axis=1).columns.get_level_values('municipio'):
-		print("   - "+mun)
+	#print("Depto: "+dep)
+	a = raw_data.xs(dep, level='departamento', axis=1).columns.get_level_values('municipio')
+	print("Depto: "+dep+" hay "+str(len(a))+" municipios")
+	for mun in a:
+		#print("   - "+mun)
+		continue
 	#print(dep)
 	try:
-		raw_data.xs(dep, level='departamento', axis=1).plot()
+		#raw_data.xs(dep, level='departamento', axis=1).plot()
+		continue
 	except:
 		print("No existe depto: "+dep)
 
