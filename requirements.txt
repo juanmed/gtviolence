@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+sklearn
+python-dateutil
+xlrd
+openpyxl
+Unidecode
