@@ -1,10 +1,19 @@
 # Violencia Homicida en Guatemala
 
-Este repositorio contiene datos de violencia homicida en Guatemala amablemente proporcionados por Dialogos.org.gt
+Este repositorio contiene datos de violencia homicida en Guatemala amablemente proporcionados por Dialogos.org.gt, y scripts para trabajar con ellos ya sea [visualización](https://github.com/juanmed/gtviolence/blob/master/Graficar_data_2001_2018.ipynb) o análisis de los mismos (vendrá pronto).
 
-El proposito es utilizar algoritmos de reconomiento de patrones y machine learning para analizar la informacion. Se ha utilizado python como lenguaje de programacion y plataforma, Pandas como herramienta para manejar la gran cantidad de informacion y SKLearn junto con algoritmos desarrollados por el autor para el analisis de los datos. 
+![alt tag](https://github.com/juanmed/quadcopter-simulation/blob/master/content/graph1.gif)
+![alt tag](https://github.com/juanmed/quadcopter-simulation/blob/master/content/vis1.gif)
 
-Inicialmente, los datos en formato pdf fueron convertidos a excel utilizando ilovepdf.com. Esta pagina proveyo la mejor conversion inicial de datos a una formato utilizable para ser leidos en python utilizando la libreria pandas.
+Los datos se encuentran en la carpeta data:
+
+[muertes_violentas_municipio_2001_a_2018.xlsx](https://github.com/juanmed/gtviolence/blob/master/data/muertes_violentas_municipio_2001_a_2018.xlsx): Datos de muertes violentas por departamento y municipio desde el 2001 a septiembre 2018. Obtenidos de [Dialogos.org.gt](https://drive.google.com/drive/folders/1XbOk159rR7zUri7eE1NsJBonMLAkxs8i)
+
+El proposito es utilizar algoritmos de reconomiento de patrones y machine learning para analizar la informacion. Se ha utilizado python como lenguaje de programacion y plataforma, Pandas como herramienta para manejar la gran cantidad de informacion y pytorch, sklearn junto con algoritmos desarrollados por el autor para el análisis de los datos. 
+
+### Antecedentes
+
+Inicialmente, los datos en formato pdf fueron convertidos a excel utilizando ilovepdf.com. Esta página proveyo la mejor conversion inicial de datos a una formato utilizable para ser leidos en python utilizando la libreria pandas.
 
 Los datos de division territorial por departament y municipio, asi como la ubicacion de caberas municipales y departamentales de Guatemala fueron descargados desde:
 http://ideg.segeplan.gob.gt/

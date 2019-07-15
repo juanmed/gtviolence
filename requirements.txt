@@ -6,3 +6,6 @@ python-dateutil
 xlrd
 openpyxl
 Unidecode
+geopandas
+mplleaflet
+pandas-bokeh
