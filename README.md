@@ -2,8 +2,8 @@
 
 Este repositorio contiene datos de violencia homicida en Guatemala amablemente proporcionados por Dialogos.org.gt, y scripts para trabajar con ellos ya sea [visualización](https://github.com/juanmed/gtviolence/blob/master/Graficar_data_2001_2018.ipynb) o análisis de los mismos (vendrá pronto).
 
-![alt tag](https://github.com/juanmed/quadcopter-simulation/blob/master/content/graph1.gif)
-![alt tag](https://github.com/juanmed/quadcopter-simulation/blob/master/content/vis1.gif)
+![alt tag](https://github.com/juanmed/gtviolence/blob/master/content/graph1.png)
+![alt tag](https://github.com/juanmed/gtviolence/blob/master/content/vis1.gif)
 
 Los datos se encuentran en la carpeta data:
 
